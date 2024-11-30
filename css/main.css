@@ -1,0 +1,79 @@
+/* Estilos do main */
+main {
+    max-width: 75%; /* Largura máxima do conteúdo principal */
+    margin: 20px auto; /* Centraliza o main horizontalmente e adiciona espaçamento vertical */
+    padding: 20px;
+    background-color: white; /* Cor de fundo do main */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra  */
+    width: 900px; /*define a largura do quadro*/
+    background-color: #313131; /*define a cor do quadro*/
+}
+
+/* Estilos dos títulos dentro do main */
+main h2, main h3 {
+    color: #ffffff; /* Cor dos títulos */
+    text-align: center;/*centraliza o texto*/
+}
+
+/* Estilos dos parágrafos dentro do main */
+main p {
+    line-height: 1.6; /* Altura da linha */
+    color: #ffffff; /* Cor do texto */
+    margin-bottom: 16px; /* Espaçamento inferior dos parágrafos */
+    margin-left: 50px; /*margem*/
+    margin-right: 50px; /*mergem*/
+    text-align: center;/*centraliza o texto*/
+}
+
+/* Estilos de links dentro do main */
+main a {
+    color: #4CAF50; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+main a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse sobre o link */
+}
+.image {
+    width: 50%;  /* Define a largura da imagem */
+    height: auto;  /* A altura será ajustada automaticamente para manter a proporção */
+    margin-left: 25%; /*margem*/
+}
+
+table{
+    background-color: #313131;
+    margin-left: 34%; /*margem*/
+    color:#ffffff ;
+}
+.login-container {
+    text-align: center;
+}
+
+.login{
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgb(128, 255, 0);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    transition: all 0.3s ease; /* Transição suave para hover */
+    border: none;
+}
+
+.login:hover {
+    background-color: rgb(96, 192, 1); /* Cor mais escura no hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Aumentar a sombra ao passar o mouse */
+    transform: translateY(-3px);
+}
+.login:active {
+    background-color: #024b00; /* Cor ainda mais escura ao clicar */
+    transform: translateY(0); /* Voltar ao normal quando clicado */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Sombra mais suave quando clicado */
+}
+

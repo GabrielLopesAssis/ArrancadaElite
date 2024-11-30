@@ -1,0 +1,6 @@
+body {
+    background-image: url('../img/fundo3.png'); /* Caminho para a imagem */
+    background-size: cover; /* A imagem cobre todo o fundo */
+    background-repeat: repeat; /* Não repete a imagem */
+    background-position: center; /* Centraliza a imagem */
+}

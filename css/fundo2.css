@@ -1,0 +1,5 @@
+body {
+    background-image: url('../img/logincad.png'); /* Caminho para a imagem */
+    background-size: cover; /* A imagem cobre todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
